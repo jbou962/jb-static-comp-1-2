@@ -1,0 +1,241 @@
+/*.arrow-right {
+  float: right;
+  position: relative;
+}*/
+.blog {
+  background-color: #3A435E;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*height: 33.33%;*/
+}
+.blog:hover {
+  background-color: pink;
+}
+body {
+  display: flex;
+}
+.button {
+  display: flex;
+}
+button {
+  border: 1px solid #fff;
+  background-color: #3A435E;
+  padding: 15px;
+  display: inline;
+  margin: 10px;
+}
+.contact {
+  background-color: #70566D;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*height: 33.33%;*/
+}
+.contact:hover {
+  background-color: darkviolet;
+}
+.experience {
+  background-color: #70566D;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*height: 33.33%;*/
+}
+.experience:hover {
+  background-color: chartreuse;
+}
+.education {
+  background-color: #CEB992;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*height: 33.33%;*/
+}
+.education:hover {
+  background-color: aqua;
+}
+.grid {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.hero {
+  /*display: flex;*/
+  background-image: url("assets/husky-static-comp1.2.jpg");
+  background-repeat: round;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  display: inline-block;
+  float: right;
+}
+.arrow-left {
+  /*display: inline-block;*/
+  display: flex;
+    justify-content: space-between;
+    margin-top: 400px;
+}
+.arrow-right {
+
+}
+.left-pointer {
+  -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+h1 {
+  font-size: 30px;
+}
+.info {
+  background-color: #3A435E;
+  width: 66.6%;
+  /*height: 33.33%;*/
+}
+
+.portfolio {
+  background-color: #989788;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*height: 33.33%;*/
+}
+.portfolio:hover {
+  background-color: fuchsia;
+}
+.profile {
+  background-color: #C9B500;
+  width: 33.4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /*height: 33.33%;*/
+}
+.profile:hover {
+  background-color: yellow;
+}
+.social-menu {
+  background-color: #989788;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*height: 33.33%;*/
+}
+.social-menu:hover {
+  background-color: limegreen;
+}
+/*@media screen (max-width: 800px;){*/
+@media only screen and (max-width: 850px){
+
+  .hero-pup {
+    display: flex;
+  }
+  .info {
+    width: 100%;
+  }
+  .grid {
+    display: flex;
+  }
+  .profile {
+    width: 50%;
+  }
+  .experience {
+    width: 50%;
+  }
+  .education {
+    width: 50%;
+  }
+  .blog {
+    width: 50%;
+  }
+  .social-menu {
+    width: 50%;
+  }
+  .contact {
+    width: 50%;
+  }
+  .portfolio{
+    width: 100%;
+    background-color: #CEB992;
+  }
+  .hero {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 650px){
+  .info {
+    width: 100%;
+  }
+  .grid {
+    display: flex;
+  }
+  .profile {
+    width: 100%;
+  }
+  .experience {
+    width: 100%;
+  }
+  .education {
+    width: 100%;
+  }
+  .blog {
+    width: 100%;
+  }
+  .social-menu {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+  }
+  .hero {
+    width: 80%;
+}
+@media only screen and (max-width: 500px){
+  body {
+    display: block;
+  }
+  .grid {
+    width: 100%;
+  }
+  .info {
+    width: 100%;
+    text-align: center;
+  }
+  .hero {
+    display: flex;
+    background-image: url(assets/husky-static-comp1.2.jpg);
+    background-repeat: round;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  .arrow-left {
+    /*display: inline-block;*/
+    display: flex;
+      justify-content: space-between;
+      margin-top: 400px;
+  }
+
+
+}
